@@ -3,6 +3,7 @@
     --light-background-color: #FFFFFF;
     --dark-background-color: #2F303A;
     --medium-background-color: #F5F4FA;
+    --accent-background-color: #2196F3;
 
     /* text color */
     --light-color-text: #FFFFFF;
@@ -48,6 +49,50 @@ color: var(--accent-color-text);
 .contacts .link:hover, 
 .contacts .link:focus {
     color: var(--accent-color-text);
+}
+
+/* main site */
+/* section adv */
+.adv {
+    background-color: var(--dark-background-color);
+}
+.slogan {
+    color: var(--light-color-text); 
+}
+.button {
+    background-color: var(--accent-background-color);
+    color: var(--light-color-text);
+}
+/* section specific */
+.title-specific {
+   display: none; 
+}
+.subtitle, .subtitle-team {
+    color: var(--medium-dark-color-text); 
+}
+.text {
+    color: var(--medium-light-color-text)
+}
+/* section teams */
+.team-our {
+    background-color: var(--medium-background-color);
+}
+.card-item {
+    background-color: var(--light-background-color);
+    width: 270px;
+    height: 368px;
+}
+/* section portfolio */
+.title-filter {
+    display: none; 
+}
+.control {
+    background-color: var(--medium-background-color);
+    color: var(--medium-dark-color-text)
+}
+.control:hover, .control:focus {
+    background-color: var(--accent-background-color);
+    color: var(--light-color-text)  
 }
 
 /* footer site */
