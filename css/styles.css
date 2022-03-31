@@ -10,6 +10,7 @@
     --medium-dark-color-text: #212121;
     --medium-light-color-text: #757575;
     --accent-color-text: #2196F3;
+    --lightdark-color-text: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -40,11 +41,23 @@ color: var(--accent-color-text);
 .site-nav .link.current {
     color: var(--accent-color-text);
 }
-/* header  */
+/* header contacts */
 .contacts .link {
     color: var(--medium-light-color-text);
 }
 .contacts .link:hover, 
 .contacts .link:focus {
     color: var(--accent-color-text);
+}
+
+/* footer site */
+.footer {
+    background-color: var(--dark-background-color);
+}
+.connection .link {
+    color: var(--lightdark-color-text);
+}
+.connection .link:hover, 
+.connection .link:focus {
+    color: var(--light-color-text);
 }
