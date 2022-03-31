@@ -1,0 +1,50 @@
+:root {
+    /* background color site */
+    --light-background-color: #FFFFFF;
+    --dark-background-color: #2F303A;
+    --medium-background-color: #F5F4FA;
+
+    /* text color */
+    --light-color-text: #FFFFFF;
+    --dark-color-text: #000000;
+    --medium-dark-color-text: #212121;
+    --medium-light-color-text: #757575;
+    --accent-color-text: #2196F3;
+}
+
+body {
+    background-color: var(--light-background-color);
+}
+.list {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+/* header site */
+.logo {
+color: var(--accent-color-text);
+}
+.logo-text {
+    color: var(--dark-color-text);
+}
+/* header nav site */
+.site-nav .link {
+    color: var(--medium-dark-color-text);
+}
+.site-nav .link:hover, 
+.site-nav .link:focus {
+    color: var(--accent-color-text);
+}
+.site-nav .link.current {
+    color: var(--accent-color-text);
+}
+/* header  */
+.contacts .link {
+    color: var(--medium-light-color-text);
+}
+.contacts .link:hover, 
+.contacts .link:focus {
+    color: var(--accent-color-text);
+}
