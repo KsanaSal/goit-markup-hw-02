@@ -47,7 +47,7 @@ color: var(--accent-color-text);
     color: var(--medium-light-color-text);
 }
 .contacts .link:hover, 
-.contacts .link:focus {
+.contacts .link:focus, {
     color: var(--accent-color-text);
 }
 
@@ -65,34 +65,60 @@ color: var(--accent-color-text);
 }
 /* section specific */
 .title-specific {
-   display: none; 
+   display: none;
+   color: var(--medium-dark-color-text); 
 }
-.subtitle, .subtitle-team {
+.subtitle{
     color: var(--medium-dark-color-text); 
 }
 .text {
     color: var(--medium-light-color-text)
 }
+/* section works */
+.title-works {
+    color: var(--medium-dark-color-text);
+}
 /* section teams */
 .team-our {
     background-color: var(--medium-background-color);
 }
+.title-teams {
+    color: var(--medium-dark-color-text);
+}
 .card-item {
     background-color: var(--light-background-color);
+
     width: 270px;
     height: 368px;
 }
+.subtitle-team{
+    color: var(--medium-dark-color-text);
+}
+
 /* section portfolio */
 .title-filter {
     display: none; 
+    color: var(--medium-dark-color-text);
 }
+/* button portfolio */
 .control {
     background-color: var(--medium-background-color);
     color: var(--medium-dark-color-text)
 }
-.control:hover, .control:focus {
+.control:hover, .control:focus, 
+.control:active {
     background-color: var(--accent-background-color);
     color: var(--light-color-text)  
+}
+/* cards portfolio*/
+.container {
+    background-color: var(--light-background-color);
+
+    width: 370px;
+    height: 404px;
+}
+.subtitle-card {
+    color: var(--medium-dark-color-text);
 }
 
 /* footer site */
