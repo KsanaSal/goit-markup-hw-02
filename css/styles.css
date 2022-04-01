@@ -16,6 +16,7 @@
 
 body {
     background-color: var(--light-background-color);
+    color: var(--medium-dark-color-text);
 
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
@@ -87,6 +88,7 @@ line-height: 1.2;
 .button {
     background-color: var(--accent-background-color);
     color: var(--light-color-text);
+    cursor: pointer;
 
     font-family: 'Roboto';
     font-style: normal;
@@ -114,7 +116,6 @@ line-height: 1.2;
 .text {
     color: var(--medium-light-color-text);
 
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
 }
@@ -149,7 +150,6 @@ line-height: 1.2;
 .text-team {
     color: var(--medium-light-color-text);
 
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.2;
     text-align: center;
@@ -167,6 +167,7 @@ line-height: 1.2;
 .control {
     background-color: var(--medium-background-color);
     color: var(--medium-dark-color-text);
+    cursor: pointer;
 
     font-family: 'Roboto';
     font-style: normal;
@@ -199,7 +200,6 @@ line-height: 1.2;
 .text-card {
     color: var(--medium-light-color-text);
 
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.9;
 }
@@ -211,7 +211,6 @@ line-height: 1.2;
 .connection .link {
     color: var(--lightdark-color-text);
 
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
 }
