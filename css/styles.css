@@ -88,6 +88,8 @@ line-height: 1.2;
     background-color: var(--accent-background-color);
     color: var(--light-color-text);
 
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
@@ -159,14 +161,25 @@ line-height: 1.2;
     color: var(--medium-dark-color-text);
 }
 /* button portfolio */
+.filter {
+   
+}
 .control {
     background-color: var(--medium-background-color);
-    color: var(--medium-dark-color-text)
+    color: var(--medium-dark-color-text);
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 .control:hover, .control:focus, 
 .control:active {
     background-color: var(--accent-background-color);
-    color: var(--light-color-text)  
+    color: var(--light-color-text);  
 }
 /* cards portfolio*/
 .container {
@@ -177,6 +190,18 @@ line-height: 1.2;
 }
 .subtitle-card {
     color: var(--medium-dark-color-text);
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.text-card {
+    color: var(--medium-light-color-text);
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
 }
 
 /* footer site */
