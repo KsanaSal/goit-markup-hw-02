@@ -91,7 +91,6 @@ line-height: 1.2;
     cursor: pointer;
 
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
@@ -183,11 +182,8 @@ line-height: 1.2;
     color: var(--light-color-text);  
 }
 /* cards portfolio*/
-.container {
+.card {
     background-color: var(--light-background-color);
-
-    width: 370px;
-    height: 404px;
 }
 .subtitle-card {
     color: var(--medium-dark-color-text);
@@ -208,13 +204,21 @@ line-height: 1.2;
 .footer {
     background-color: var(--dark-background-color);
 }
+.footer .logo-text {
+    color: var(--light-color-text);
+}
+.addres {
+    font-style: normal;
+}
+.connection .link-first {
+    color: var(--light-color-text);
+
+    font-size: 14px;
+    line-height: 1.7;  
+}
 .connection .link {
     color: var(--lightdark-color-text);
 
     font-size: 14px;
     line-height: 1.7;
-}
-.connection .link:hover, 
-.connection .link:focus {
-    color: var(--light-color-text);
 }
